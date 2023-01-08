@@ -1,4 +1,4 @@
-import React from "react";
+import Marquee from "react-fast-marquee";
 
 const LiveMarketFooter = () => {
   return (
@@ -8,18 +8,11 @@ const LiveMarketFooter = () => {
           <div className="bg-black-900 text-center right-0 px-3 lg:px-8 flex py-3 w-40">
             <p className="text-white font-semibold text-sm">Live Market</p>
           </div>
-          <marquee
-            behavior="scroll"
-            scrollamount="7"
-            width="100%"
-            direction="left"
-          >
+          <Marquee speed={40}>
             <div className="flex items-center gap-5 text-sm  text-black-900">
               <div className="m-2">
                 <p className="font-bold ">Soybean (SBBS)</p>
-                <p className="font-semibold">
-                  ₦30,834.59
-                </p>
+                <p className="font-semibold">₦30,834.59</p>
               </div>
               <div className="m-2">
                 <p className="font-bold ">Sorghum (SSGM)</p>
@@ -50,7 +43,7 @@ const LiveMarketFooter = () => {
                 <p className="font-semibold">₦30,834.59</p>
               </div>
             </div>
-          </marquee>
+          </Marquee>
         </div>
       </div>
     </div>
