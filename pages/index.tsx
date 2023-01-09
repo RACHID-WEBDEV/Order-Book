@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <div className="flex pt-[65px] flex-no-wrap">
         <Menu />
         <SubMenu />
-        <div className="container  scrollbar rounded bg-gray-100 md:ml-[90px] lg:ml-[296px] mb-16 py-2 h-full md:w-4/5 w-11/12 px-2">
+        <div className="container  scrollbar rounded bg-gray-100 md:ml-[90px] lg:ml-[296px] mb-16 py-2 h-full md:w-full w-full px-2">
           <div className="bg-white ">
             <div className="w-full h-full rounded border-gray-300 overflow-auto">
               <div className="p-6">

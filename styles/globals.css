@@ -80,3 +80,13 @@ body::-webkit-scrollbar-thumb {
     padding-right: 0 !important;
   }
 }
+
+div .overlay::before,
+.overlay::after {
+  background: transparent !important;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: var(--gradient-width);
+  z-index: 2;
+}
